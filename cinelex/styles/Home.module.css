@@ -1,0 +1,35 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  
+}
+
+.main {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main ul {
+  list-style: none;
+  margin: 0;
+}
+
+.main li {
+  display: inline-block;
+  margin: 20px;
+}
+
+.span {
+  color: rgb(214, 10, 10);
+  font-style: italic;
+}
